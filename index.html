@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"><!--nombre d ela hoja de estilos que corresponda-->
+    <style>
+        h2{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <nav>
+                <ul>
+                    <li>ITEM</li><!--dos viñetas una abajo del otor-->
+                    <li>ITEM</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1> CSS - Cascade Style Sheets</h1><!--porque la propiedad de abajo tine mas prioridad -->
+    <h2 style="color:aqua; font: size 25px;">Estilos en linea </h2><!--por mas que sea un html va a recibir css-->
+    <h2 id="segundoParrafo">Vinculacion Interna</h2><!--el estilo en linea le da prioridad a la etique-->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem qui voluptas nesciunt provident porro iusto molestiae tempora nihil placeat amet recusandae reiciendis aspernatur, repellendus quis consectetur? Doloremque impedit ducimus possimus.</p>
+    <p id="segundoParrafo" class="parrafoPar">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem qui voluptas nesciunt provident porro iusto molestiae tempora nihil placeat amet recusandae reiciendis aspernatur, repellendus quis consectetur? Doloremque impedit ducimus possimus.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem qui voluptas nesciunt provident porro iusto molestiae tempora nihil placeat amet recusandae reiciendis aspernatur, repellendus quis consectetur? Doloremque impedit ducimus possimus.</p>
+    <p class="parrafoPar">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem qui voluptas nesciunt provident porro iusto molestiae tempora nihil placeat amet recusandae reiciendis aspernatur, repellendus quis consectetur? Doloremque impedit ducimus possimus.</p>
+</body>
+</html>

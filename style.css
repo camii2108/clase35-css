@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*le agrego las dos font al mismo tiempo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Rubik+Vinyl&display=swap');
+
+
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+/*Selecto ID*/
+h2#segundoParrafo{
+    color: aqua;
+   font-family:  'Rubik Vinyl', cursive;
+   ;
+}
+#segundoParrafo{
+    color: red; /*me pisa el color aqua porque tiene mas prioridad el elemento de abajo en la cascada*/
+   
+}
+/*parrafo par*/
+.parrafoPar {
+    color: purple;
+    font: size 20px;
+    font-weight: 100;
+}
+
+/*Estilos del header*/
+header {
+    background-color: aquamarine;
+}
+/*div con clase logo*/
+header div.logo{
+    background-color: blue;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display:inline-block; /*es un elemto en bloque por lo que toma el tamaño de de ancho */
+}
+
+header nav {
+    display: inline-block;
+    height: 100%;
+}
+
+header nav ul {
+    list-style:none;
+    margin: 0;
+}
+/*me saca las viñietas*/
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    
+}
+
